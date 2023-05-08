@@ -3,7 +3,7 @@ function randomPassword() {
   let passwordLength = document.getElementById("password-length").value;
   let error = document.getElementById("error-info");
   let password = "";
-  let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+~`|}{[]:;?><,./-='";
+  let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+~`\"|}{[]:;?><,./-='";
 
   // If user has not selected a length
   parseInt(passwordLength);
